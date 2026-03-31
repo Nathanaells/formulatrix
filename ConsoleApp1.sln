@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foobar", "Foobar\Foobar.csproj", "{DC041479-1084-4D24-BD45-797CB6122B80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnC#", "LearnC#\LearnC#.csproj", "{4F3A4E13-7B59-4041-836D-E41BFCD6DD31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DC041479-1084-4D24-BD45-797CB6122B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC041479-1084-4D24-BD45-797CB6122B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC041479-1084-4D24-BD45-797CB6122B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3A4E13-7B59-4041-836D-E41BFCD6DD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3A4E13-7B59-4041-836D-E41BFCD6DD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3A4E13-7B59-4041-836D-E41BFCD6DD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3A4E13-7B59-4041-836D-E41BFCD6DD31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
