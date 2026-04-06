@@ -1,22 +1,48 @@
-﻿ class Program
-   {
-       static void Main(string[] args)
-       {
-          Foobar(15);
-       }
+﻿using System;
 
-static void Foobar(int number)
+class Program
+{
+    static void Main(string[] args)
     {
-    for(int i = 1; i <= number; i++)
+        Foobar(105);
+    }
+
+    static void Foobar(int number)
+    {
+        for (int i = 1; i <= number; i++)
         {
-            if(i >= 3 && i >= 5 && i % 3 == 0 && i % 5 == 0)
+            if (i % 3 == 0 && i % 5 == 0)
             {
-            Console.WriteLine("foobar");
-            }else if(i >= 3 && i % 3 == 0){
-                Console.WriteLine("foo");
-            }else if(i >= 5 && i % 5 == 0)
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine("foobarjazz");
+                }
+                else
+                {
+                    Console.WriteLine("foobar");
+                }
+            }
+            else if (i % 3 == 0)
             {
-                Console.WriteLine("bar");
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine("foojazz");
+                }
+                else
+                {
+                    Console.WriteLine("foo");
+                }
+            }
+            else if (i % 5 == 0)
+            {
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine("barjazz");
+                }
+                else
+                {
+                    Console.WriteLine("bar");
+                }
             }
             else
             {
@@ -24,4 +50,4 @@ static void Foobar(int number)
             }
         }
     }
-   }
+}
