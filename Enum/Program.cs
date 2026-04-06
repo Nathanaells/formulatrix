@@ -3,9 +3,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        int i = (int)BorderSide.Left;
-        Console.WriteLine("Nilai BorderSide.Left: " + i);
+       BorderSide leftRight = BorderSide.Left | BorderSide.Right;   
 
+        if((leftRight & BorderSide.Left) != 0)
+            Console.WriteLine("Border kiri dipilih");
+
+            string formatted = leftRight.ToString();
+
+            BorderSide s = BorderSide.Left;
+            s |= BorderSide.Right; // Menambahkan BorderSide.Right ke s 
+
+            Console.WriteLine(s == leftRight); // Output: True
+
+            s ^= BorderSide.Right;
+            Console.WriteLine(s);
+        
     }
 }
 
@@ -16,14 +28,6 @@ class Program
 public enum BorderSide : byte {
     Left = 1, 
     Right = 2, 
-    Top = 3, 
-    Bottom = 4
+    Top = 4, 
+    Bottom = 8
     };
-
-public enum BorderSide2
-{
-    Left = BorderSide.Left,
-    Right = BorderSide.Right,        
-    Top = BorderSide.Top,
-    Bottom = BorderSide.Bottom
-}
