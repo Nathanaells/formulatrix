@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nathanael\\MyProject\\formulatrix\\Foobar\\Foobar.csproj": {}
+    "D:\\formulatrix\\formulatrix\\Foobar\\Foobar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nathanael\\MyProject\\formulatrix\\Foobar\\Foobar.csproj": {
+    "D:\\formulatrix\\formulatrix\\Foobar\\Foobar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nathanael\\MyProject\\formulatrix\\Foobar\\Foobar.csproj",
+        "projectUniqueName": "D:\\formulatrix\\formulatrix\\Foobar\\Foobar.csproj",
         "projectName": "Foobar",
-        "projectPath": "C:\\Users\\Nathanael\\MyProject\\formulatrix\\Foobar\\Foobar.csproj",
-        "packagesPath": "C:\\Users\\Nathanael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nathanael\\MyProject\\formulatrix\\Foobar\\obj\\",
+        "projectPath": "D:\\formulatrix\\formulatrix\\Foobar\\Foobar.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\formulatrix\\formulatrix\\Foobar\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nathanael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
