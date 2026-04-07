@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{30CBE292-71C0-4299-AA81-6C62A2450973}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{D1458B09-FED7-4E89-9C5D-58450835E9B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{30CBE292-71C0-4299-AA81-6C62A2450973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30CBE292-71C0-4299-AA81-6C62A2450973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30CBE292-71C0-4299-AA81-6C62A2450973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1458B09-FED7-4E89-9C5D-58450835E9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1458B09-FED7-4E89-9C5D-58450835E9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1458B09-FED7-4E89-9C5D-58450835E9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1458B09-FED7-4E89-9C5D-58450835E9B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
