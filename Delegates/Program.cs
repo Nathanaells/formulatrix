@@ -2,6 +2,7 @@
 using System.Reflection.Metadata;
 using MyApp.Delegates;
 
+
 class Program
 {
     static void Main(string[] args)
