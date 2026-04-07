@@ -2,9 +2,9 @@
 {
     static void Main(string[] args)
     {
-        void WriteProgressToConsole(int percentComplete) => Console.WriteLine($"Progress: {percentComplete}%"); 
+        void WriteProgressToConsole(int percentComplete) => Console.WriteLine($"Progress: {percentComplete}%");
 
-        void WriteProgressToFile(int percentComplete) => File.WriteAllText("progress.txt", $"Progress: {percentComplete}%");    
+        void WriteProgressToFile(int percentComplete) => File.WriteAllText("progress.txt", $"Progress: {percentComplete}%");
 
         ProgressDelegate reporter = WriteProgressToConsole;
         reporter += WriteProgressToFile;
@@ -16,11 +16,11 @@
         // del1 += test.SomeMethod2;
         // del1.Invoke();
 
-    
+
         // Test test = new Test();
         // Transformer transformer = test.Square;
         // Console.WriteLine(transformer(10));
-    } 
+    }
 }
 
 public delegate void ProgressDelegate(int progress);
@@ -33,7 +33,7 @@ class Test
             progressDelegate(i * 10);
             System.Threading.Thread.Sleep(1000);
         }
-    }   
+    }
 }
 
 //    public delegate void SomeDelegate();
