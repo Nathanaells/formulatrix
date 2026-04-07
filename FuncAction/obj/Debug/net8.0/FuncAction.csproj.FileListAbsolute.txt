@@ -1,0 +1,15 @@
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\bin\Debug\net8.0\FuncAction.exe
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\bin\Debug\net8.0\FuncAction.deps.json
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\bin\Debug\net8.0\FuncAction.runtimeconfig.json
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\bin\Debug\net8.0\FuncAction.dll
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\bin\Debug\net8.0\FuncAction.pdb
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.AssemblyInfoInputs.cache
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.AssemblyInfo.cs
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.csproj.CoreCompileInputs.cache
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.sourcelink.json
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.dll
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\refint\FuncAction.dll
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.pdb
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\FuncAction.genruntimeconfig.cache
+C:\Users\Nathanael\MyProject\formulatrix\FuncAction\obj\Debug\net8.0\ref\FuncAction.dll
