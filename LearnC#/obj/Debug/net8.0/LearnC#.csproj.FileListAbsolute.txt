@@ -1,0 +1,15 @@
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\bin\Debug\net8.0\LearnC#.exe
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\bin\Debug\net8.0\LearnC#.deps.json
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\bin\Debug\net8.0\LearnC#.runtimeconfig.json
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\bin\Debug\net8.0\LearnC#.dll
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\bin\Debug\net8.0\LearnC#.pdb
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.AssemblyInfoInputs.cache
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.AssemblyInfo.cs
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.csproj.CoreCompileInputs.cache
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.sourcelink.json
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.dll
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\refint\LearnC#.dll
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.pdb
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\LearnC#.genruntimeconfig.cache
+C:\Users\Nathanael\MyProject\formulatrix\LearnC#\obj\Debug\net8.0\ref\LearnC#.dll
