@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumeratonIterators", "Enum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject", "MyProject\MyProject.csproj", "{B786A438-20CA-428A-8C31-9E6BA4926CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableValueTypes", "NullableValueTypes\NullableValueTypes.csproj", "{AD7B3BCC-4B62-4E0B-B2F5-FD27FB54B1E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{99AEFF24-732B-49EA-8EAB-47EFEFC3904B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTextHandling", "StringTextHandling\StringTextHandling.csproj", "{E3D562B6-4199-484F-936B-6514BBC70B9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,17 @@ Global
 		{B786A438-20CA-428A-8C31-9E6BA4926CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B786A438-20CA-428A-8C31-9E6BA4926CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B786A438-20CA-428A-8C31-9E6BA4926CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7B3BCC-4B62-4E0B-B2F5-FD27FB54B1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7B3BCC-4B62-4E0B-B2F5-FD27FB54B1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7B3BCC-4B62-4E0B-B2F5-FD27FB54B1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7B3BCC-4B62-4E0B-B2F5-FD27FB54B1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AEFF24-732B-49EA-8EAB-47EFEFC3904B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AEFF24-732B-49EA-8EAB-47EFEFC3904B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AEFF24-732B-49EA-8EAB-47EFEFC3904B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AEFF24-732B-49EA-8EAB-47EFEFC3904B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D562B6-4199-484F-936B-6514BBC70B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D562B6-4199-484F-936B-6514BBC70B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D562B6-4199-484F-936B-6514BBC70B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D562B6-4199-484F-936B-6514BBC70B9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
