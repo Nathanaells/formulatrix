@@ -27,11 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{30CBE292-71C0-4299-AA81-6C62A2450973}"
 EndProject
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{D1458B09-FED7-4E89-9C5D-58450835E9B0}"
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{98A429E8-EFB9-45A0-A928-D781B25B22C3}"
->>>>>>> 7bd6bae8bd9be8552c4c7bd8b66cd4cd3b2e9e35
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

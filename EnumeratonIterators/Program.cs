@@ -2,7 +2,8 @@
 {
     static IEnumerable<int> Fibonacci(int count)
     {
-        for (int i = 0, prevFib = 1, curFib = 1; i < count; i++)
+        for (int i = 0, pre
+        vFib = 1, curFib = 1; i < count; i++)
         {
             yield return prevFib; // ini yang di return ke EvenNumbersOnly
             int newFib = prevFib + curFib;
