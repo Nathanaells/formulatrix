@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foobar3", "Foobar3\Foobar3.csproj", "{4179FB13-9788-4893-84FE-68530DAC48C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testClassGame", "testClassGame\testClassGame.csproj", "{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{4179FB13-9788-4893-84FE-68530DAC48C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4179FB13-9788-4893-84FE-68530DAC48C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4179FB13-9788-4893-84FE-68530DAC48C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
