@@ -17,6 +17,10 @@ class Program
                 {
                     Console.WriteLine("foobarjazz");
                 }
+                else if (i % 9 == 0)
+                {
+                    Console.WriteLine("foobarhuzz");
+                }
                 else
                 {
                     Console.WriteLine("foobar");
@@ -24,9 +28,17 @@ class Program
             }
             else if (i % 3 == 0)
             {
-                if (i % 7 == 0)
+                if (i % 9 == 0)
+                {
+                    Console.WriteLine("foohuzz");
+                }
+                else if (i % 7 == 0)
                 {
                     Console.WriteLine("foojazz");
+                }
+                else if (i % 4 == 0)
+                {
+                    Console.WriteLine("foobaz");
                 }
                 else
                 {
@@ -35,14 +47,41 @@ class Program
             }
             else if (i % 5 == 0)
             {
+                if (i % 9 == 0)
+                {
+                    Console.WriteLine("barhuzz");
+                }
                 if (i % 7 == 0)
                 {
                     Console.WriteLine("barjazz");
+                }
+                else if (i % 4 == 0)
+                {
+                    Console.WriteLine("barbaz");
                 }
                 else
                 {
                     Console.WriteLine("bar");
                 }
+            }
+            else if (i % 4 == 0)
+            {
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine("bazjazz");
+                }
+                else
+                {
+                    Console.WriteLine("baz");
+                }
+            }
+            else if (i % 7 == 0)
+            {
+                Console.WriteLine("jaz");
+            }
+            else if (i % 9 == 0)
+            {
+                Console.WriteLine("huzz");
             }
             else
             {

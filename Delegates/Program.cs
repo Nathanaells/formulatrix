@@ -1,7 +1,13 @@
-﻿class Program
+﻿
+using System.Reflection.Metadata;
+using MyApp.Delegates;
+
+
+class Program
 {
     static void Main(string[] args)
     {
+<<<<<<< HEAD
         void WriteProgressToConsole(int percentComplete) => Console.WriteLine($"Progress: {percentComplete}%");
 
         void WriteProgressToFile(int percentComplete) => File.WriteAllText("progress.txt", $"Progress: {percentComplete}%");
@@ -51,5 +57,15 @@ class Test
 
 
 
+=======
+        ValueChanger valueChanger = new ValueChanger();
+        ChangeValue changeValueDelegate = valueChanger.Change;
+
+        int value = changeValueDelegate(5);
+        Console.WriteLine("Returned value: " + value);
+    }
+}
+
+>>>>>>> 7cb7197c24dbd0329041998ef65057cd8e7ea1ed
 
 
