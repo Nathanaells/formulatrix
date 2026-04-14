@@ -1,0 +1,15 @@
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.GeneratedMSBuildEditorConfig.editorconfig
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.AssemblyInfoInputs.cache
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.AssemblyInfo.cs
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.csproj.CoreCompileInputs.cache
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.sourcelink.json
+D:\formulatrix\formulatrix\Delegates2\bin\Debug\net10.0\Delegates2.exe
+D:\formulatrix\formulatrix\Delegates2\bin\Debug\net10.0\Delegates2.deps.json
+D:\formulatrix\formulatrix\Delegates2\bin\Debug\net10.0\Delegates2.runtimeconfig.json
+D:\formulatrix\formulatrix\Delegates2\bin\Debug\net10.0\Delegates2.dll
+D:\formulatrix\formulatrix\Delegates2\bin\Debug\net10.0\Delegates2.pdb
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.dll
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\refint\Delegates2.dll
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.pdb
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\Delegates2.genruntimeconfig.cache
+D:\formulatrix\formulatrix\Delegates2\obj\Debug\net10.0\ref\Delegates2.dll
