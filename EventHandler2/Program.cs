@@ -1,69 +1,75 @@
-﻿using System;
-
-public class Program
+﻿class Program
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        Stock stock = new Stock("tes");
-        stock.PriceChanged += Stock_PriceChanged;
+        Game game = new Game();
+        UI ui = new UI();
+        Test test = new Test();
 
-        stock.Price = 27.10M;
-        stock.Price = 31.59M;
-        stock.Price = 43.35M;
-        stock.Price = 53.35M;
+        ui.Subscribe(game);
+        ui.SubscribeDoubleScore(game);
 
-        // stock.PriceChanged += Stock_PriceChanged;
+        test.Subscribe(game);
 
-        void Stock_PriceChanged(object? sender, PriceChangedEventArgs e)
-        {
-            if (e.LastPrice > 0 && (e.NewPrice - e.LastPrice) / e.LastPrice > 0.1M)
-            {
-                // Console.WriteLine("Alert, 10% stock price Increase");
-                Console.WriteLine(e.NewPrice);
-            }
-        }
+        game.AddScore(10);
     }
 }
 
-public class PriceChangedEventArgs : EventArgs
+class ScoreEventArgs : EventArgs
 {
-    public readonly decimal LastPrice;
-    public readonly decimal NewPrice;
+    public int Score { get; set; }
+}
 
-    public PriceChangedEventArgs(decimal lastPrice, decimal newPrice)
+class Game
+{
+    public event EventHandler<ScoreEventArgs> OnScoreChanged;
+
+    // public delegate void <ScoreEventArgs> OnScoreChanged(object sender, ScoreEventArgs e);
+
+    public void AddScore(int score)
     {
-        this.LastPrice = lastPrice;
-        this.NewPrice = newPrice;
+        OnScoreChanged?.Invoke(this, new ScoreEventArgs { Score = score });
+    }
+
+    public void Unsubscribe(UI ui)
+    {
+        OnScoreChanged -= ui.UpdateScore;
     }
 }
 
-public class Stock
+class UI
 {
-    string mySymbol;
-    decimal myPrice;
-
-    public Stock(string symbol)
+    public void Subscribe(Game game)
     {
-        this.mySymbol = symbol;
+        game.OnScoreChanged += UpdateScore;
     }
 
-    public event EventHandler<PriceChangedEventArgs>? PriceChanged;
-
-    protected virtual void OnPriceChanged(PriceChangedEventArgs e)
+    public void SubscribeDoubleScore(Game game)
     {
-        PriceChanged?.Invoke(this, e);
+        game.OnScoreChanged += UpdateDoubleScore;
     }
 
-    public decimal Price
+    public void UpdateScore(object sender, ScoreEventArgs e)
     {
-        get => myPrice;
-        set
-        {
-            if (myPrice == value)
-                return;
-            decimal oldPrice = myPrice;
-            myPrice = value;
-            OnPriceChanged(new PriceChangedEventArgs(oldPrice, myPrice));
-        }
+        Console.WriteLine(sender.GetType().Name);
+        Console.WriteLine($"Score sekarang: {e.Score}");
+    }
+
+    public void UpdateDoubleScore(object sender, ScoreEventArgs e)
+    {
+        Console.WriteLine($"Double Score sekarang: {e.Score * 2}");
+    }
+}
+
+class Test
+{
+    public void Subscribe(Game game)
+    {
+        game.OnScoreChanged += AddBonusScore;
+    }
+
+    public void AddBonusScore(object sender, ScoreEventArgs e)
+    {
+        Console.WriteLine($"[TEST] Bonus Score: {e.Score + 5}");
     }
 }
