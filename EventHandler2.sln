@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposalGarbage", "Disposal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finalizer", "Finalizer\Finalizer.csproj", "{011FD030-F14A-49AD-B3A2-99A8E4E60263}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakReferences", "WeakReferences\WeakReferences.csproj", "{F1E14DA7-B2CE-4204-89C8-FFC87A290AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalCompilation", "ConditionalCompilation\ConditionalCompilation.csproj", "{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +100,13 @@ Global
 		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E14DA7-B2CE-4204-89C8-FFC87A290AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E14DA7-B2CE-4204-89C8-FFC87A290AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E14DA7-B2CE-4204-89C8-FFC87A290AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E14DA7-B2CE-4204-89C8-FFC87A290AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
