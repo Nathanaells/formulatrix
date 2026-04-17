@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foobar3", "Foobar3\Foobar3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testClassGame", "testClassGame\testClassGame.csproj", "{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposalGarbage", "DisposalGarbage\DisposalGarbage.csproj", "{5768F28D-5047-4064-B3BD-04A5D9EF1A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finalizer", "Finalizer\Finalizer.csproj", "{011FD030-F14A-49AD-B3A2-99A8E4E60263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC76BB9C-9222-41EA-A821-5635FB2EF7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5768F28D-5047-4064-B3BD-04A5D9EF1A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5768F28D-5047-4064-B3BD-04A5D9EF1A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5768F28D-5047-4064-B3BD-04A5D9EF1A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5768F28D-5047-4064-B3BD-04A5D9EF1A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011FD030-F14A-49AD-B3A2-99A8E4E60263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
