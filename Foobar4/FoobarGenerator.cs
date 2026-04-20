@@ -32,26 +32,32 @@ public class FoobarGenerator
         return true;
     }
 
-    public static void PrintFoobar(Dictionary<int, string> rules, int number)
+    public static string[] PrintFoobar(Dictionary<int, string> rules, int number)
     {
+        string[] results = new string[number];
+
         for (int i = 1; i <= number; i++)
         {
-            string result = "";
+            string temp = "";
 
             foreach (var rule in rules)
             {
                 if (i % rule.Key == 0)
                 {
-                    result += rule.Value;
+                    temp += rule.Value;
                 }
             }
 
-            if (result == "")
+            if (temp == "")
             {
-                result += i.ToString();
+                results[i - 1] = i.ToString();
             }
-
-            Console.WriteLine(result);
+            else
+            {
+                results[i - 1] = temp;
+            }
         }
+
+        return results;
     }
 }

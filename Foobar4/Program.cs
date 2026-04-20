@@ -47,6 +47,12 @@
             }
         }
 
-        FoobarGenerator.PrintFoobar(generator.Rules, input1);
+        string[] foobarResults = FoobarGenerator.PrintFoobar(generator.Rules, input1);
+
+        Console.WriteLine("Hasil Foobar:");
+        foreach (string result in foobarResults)
+        {
+            Console.WriteLine(result);
+        }
     }
 }
