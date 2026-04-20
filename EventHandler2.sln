@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakReferences", "WeakRefer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalCompilation", "ConditionalCompilation\ConditionalCompilation.csproj", "{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foobar4", "Foobar4\Foobar4.csproj", "{B46E46D1-D4A1-4D5B-824E-FE0353C4B907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD434AD3-C415-4C27-AF5C-BF8C56CB6DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46E46D1-D4A1-4D5B-824E-FE0353C4B907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46E46D1-D4A1-4D5B-824E-FE0353C4B907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46E46D1-D4A1-4D5B-824E-FE0353C4B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46E46D1-D4A1-4D5B-824E-FE0353C4B907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
