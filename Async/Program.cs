@@ -2,28 +2,23 @@
 {
     static async Task Main(string[] args)
     {
-        async Task<int> Delay1()
-        {
-            await Task.Delay(4000);
-            Console.WriteLine("Delay 1 completed!");
-            return 1;
-        }
-        async Task<int> Delay2()
-        {
-            await Task.Delay(2000);
-            Console.WriteLine("Delay 2 completed!");
-            return 2;
-        }
-        async Task<int> Delay3()
-        {
-            await Task.Delay(3000);
-            Console.WriteLine("Delay 3 completed!");
-            return 3;
-        }
+        // Attach a continuation to print the result without blocking a thread
+        var answer = await GetAnswerToLife().ContinueWith(t => t.GetAwaiter().GetResult());
+        Console.WriteLine(answer);
+    }
 
-        // Example usage:
-        int[] completedTask = await Task.WhenAll(Delay1(), Delay2(), Delay3());
-        Console.WriteLine(completedTask[0] + completedTask[1] + completedTask[2]);
+    static Task<int> GetAnswerToLife()
+    {
+        var tcs = new TaskCompletionSource<int>();
+        // Create a timer that will fire once after 5 seconds
+        var timer = new System.Timers.Timer(5000) { AutoReset = false };
+        timer.Elapsed += (sender, e) =>
+        {
+            timer.Dispose(); // Clean up the timer
+            tcs.SetResult(42); // Manually complete the task with result 42
+        };
+        timer.Start();
+        return tcs.Task; // Return the controllable task
     }
 
     static async Task<int> GetPrimesCountAsync(int start, int count)
